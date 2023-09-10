@@ -27,7 +27,9 @@ echo 'Text' > File
 
 
 wc -lwc
-sort
+sort -ru
+sort -nru
+sort -hru
 uniq
 
 diff
