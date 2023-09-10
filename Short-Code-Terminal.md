@@ -33,9 +33,14 @@ sort -hru
 sort File | uniq -d
 sort File | uniq -u
 sort File | uniq -c
-
 diff
 find
+find . -name '*.py'
+find . -type d
+find . -type f
+
+
+
 grap
 
 ## expansions
