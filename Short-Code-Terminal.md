@@ -32,12 +32,24 @@ sort -nru
 sort -hru
 sort File | uniq -d
 sort File | uniq -u
+sort File | uniq -c
 
 diff
 find
 grap
 
-
+## expansions
+```
+/	root
+~	home
+*	all
+?	charecter
+|	pipe
+>	write text
+>> 	add text
+{}
+..	{start..end}
+```
 
 
 
