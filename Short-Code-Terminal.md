@@ -30,7 +30,8 @@ wc -lwc
 sort -ru
 sort -nru
 sort -hru
-uniq
+sort File | uniq -d
+sort File | uniq -u
 
 diff
 find
