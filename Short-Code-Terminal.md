@@ -39,9 +39,14 @@ find . -name '*.py'
 find . -type d
 find . -type f
 
+grep 		'SearchText' File
+grep -i 	'SearchText' File
+grep -n 	'SearchText' File
+grep -C Num 	'SearchText' File
+grep -r 	'SearchText' .
 
-
-grap
+du -h .
+df -h
 
 ## expansions
 ```
@@ -54,6 +59,7 @@ grap
 >> 	add text
 {}
 ..	{start..end}
+.	here
 ```
 
 
