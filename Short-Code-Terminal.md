@@ -1,57 +1,57 @@
 ## Short Code Terminal
 ### Basic Commands
 1.
-```
-ls
-```
+	```
+	ls
+	```
 1.
-```
-clear
-```
+	```
+	clear
+	```
 1.
-```
-cd 
-```
+	```
+	cd 
+	```
 1.
-```
-pwd
-```
+	```
+	pwd
+	```
 1.
-```
-whoami
-```
+	```
+	whoami
+	```
 1.
-```
-who
-```
+	```
+	who
+	```
 1.
-```
-man
-```
+	```
+	man
+	```
 1.
-```
-open .
-```
+	```
+	open .
+	```
 1.
-```
-date
-```
+	```
+	date
+	```
 1.
-```
-history 
-```
+	```
+	history 
+	```
 1.
-```
-!Num
-```
+	```
+	!Num
+	```
 1.
-```
-du -h .
-```
+	```
+	du -h .
+	```
 1.
-```
-df -h
-```
+	```
+	df -h
+	```
 
 ### Files Controls
 mkdir
