@@ -193,7 +193,7 @@
 
 ---
 ### Learn From Youtube :blush:
-[Learn 50 Linux & Terminal Commands :flushed:]{https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=8472s}
+[Learn 50 Linux & Terminal Commands :flushed:](https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=8472s)
 
 
 
