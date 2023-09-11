@@ -54,40 +54,126 @@
 	```
 
 ### Files Controls
-mkdir
-touch
-
-rmdir
-rm
-rm -r
-rm -rf
-mv
-cp
-
-cat -n
-head -n Num
-tail -n Num
-echo 'Text' > File
-
-
-wc -lwc
-sort -ru
-sort -nru
-sort -hru
-sort File | uniq -d
-sort File | uniq -u
-sort File | uniq -c
-diff
-find
-find . -name '*.py'
-find . -type d
-find . -type f
-
-grep 		'SearchText' File
-grep -i 	'SearchText' File
-grep -n 	'SearchText' File
-grep -C Num 	'SearchText' File
-grep -r 	'SearchText' .
+1.
+	```
+	mkdir
+	```
+1.
+	```
+	touch
+	```
+1.
+	```
+	rm
+	```
+	1.
+		```
+		rmdir
+		```
+	1.
+		```
+		rm -r
+		```
+	1.
+		```
+		rm -rf
+		```
+1.
+	```
+	mv
+	```
+1.
+	```
+	cp
+	```
+1.
+	```
+	cat -n
+	```
+	1.
+		```
+		head -n Num
+		```
+	1.
+		```
+		tail -n Num
+		```
+1.
+	```
+	echo 'Text' > File
+	```
+1.
+	```
+	wc -lwc
+	```
+1.
+	```
+	sort -ru
+	```
+	1.
+		```
+		sort -nru
+		```
+	1.
+		```
+		sort -hru
+		```
+	1.
+		```
+		sort File | uniq -d
+		```
+	1.
+		```
+		sort File | uniq -u
+		```
+	1.
+		```
+		sort File | uniq -c
+		```
+1.
+	```
+	diff
+	```
+1.
+	```
+	find
+	```
+	1.
+		```
+		find . -name '*.py'
+		```
+	1.
+		```
+		find . -type d
+		```
+	1.
+		```
+		find . -type f
+		```
+1.
+	```
+	grep
+	```
+	1.
+		```
+		grep 		'SearchText' File
+		```
+	1.
+		```
+		grep -i 	'SearchText' File
+		```
+	1.
+		```
+		grep -n 	'SearchText' File
+		```
+	1.
+		```
+		grep -C Num 	'SearchText' File
+		```
+	1.
+		```
+		grep -r 	'SearchText' .
+		```
 
 
 
@@ -125,6 +211,9 @@ grep -r 	'SearchText' .
 
 
 
+1.
+```
+```
 1.
 ```
 ```
