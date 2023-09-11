@@ -2,7 +2,7 @@
 ### Basic Commands
 1.
 	```
-	ls
+	ls -la
 	```
 1.
 	```
