@@ -90,11 +90,11 @@
 	```
 	cat -n
 	```
-	1.
+	-
 		```
 		head -n Num
 		```
-	1.
+	-
 		```
 		tail -n Num
 		```
@@ -110,23 +110,23 @@
 	```
 	sort -ru
 	```
-	1.
+	-
 		```
 		sort -nru
 		```
-	1.
+	-
 		```
 		sort -hru
 		```
-	1.
+	-
 		```
 		sort File | uniq -d
 		```
-	1.
+	-
 		```
 		sort File | uniq -u
 		```
-	1.
+	-
 		```
 		sort File | uniq -c
 		```
@@ -138,15 +138,15 @@
 	```
 	find
 	```
-	1.
+	-
 		```
 		find . -name '*.py'
 		```
-	1.
+	-
 		```
 		find . -type d
 		```
-	1.
+	-
 		```
 		find . -type f
 		```
@@ -154,23 +154,23 @@
 	```
 	grep
 	```
-	1.
+	-
 		```
 		grep 		'SearchText' File
 		```
-	1.
+	-
 		```
 		grep -i 	'SearchText' File
 		```
-	1.
+	-
 		```
 		grep -n 	'SearchText' File
 		```
-	1.
+	-
 		```
 		grep -C Num 	'SearchText' File
 		```
-	1.
+	-
 		```
 		grep -r 	'SearchText' .
 		```
