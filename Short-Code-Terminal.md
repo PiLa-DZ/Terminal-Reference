@@ -1,13 +1,57 @@
 ## Short Code Terminal
 ### Basic Commands
-whoami
-pwd
-man
-clear
+1.
+```
 ls
+```
+1.
+```
+clear
+```
+1.
+```
 cd 
+```
+1.
+```
+pwd
+```
+1.
+```
+whoami
+```
+1.
+```
+who
+```
+1.
+```
+man
+```
+1.
+```
 open .
+```
+1.
+```
 date
+```
+1.
+```
+history 
+```
+1.
+```
+!Num
+```
+1.
+```
+du -h .
+```
+1.
+```
+df -h
+```
 
 ### Files Controls
 mkdir
@@ -45,8 +89,7 @@ grep -n 	'SearchText' File
 grep -C Num 	'SearchText' File
 grep -r 	'SearchText' .
 
-du -h .
-df -h
+
 
 ## expansions
 ```
