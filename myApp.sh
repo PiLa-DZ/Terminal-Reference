@@ -17,7 +17,7 @@ my_file=/usr/bin/vim
 if [ -f $my_file ] ; then
         echo "It's work 1"
 fi
-my_dir=nothig
+my_dir=/nothig
 if [ -d $my_dir ] ; then
 	echo "It's work 2"
 fi
