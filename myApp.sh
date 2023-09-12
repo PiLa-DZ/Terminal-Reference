@@ -12,3 +12,11 @@ expr 3 \* 3
 expr 3 /  3
 expr 3 %  3
 
+echo '------------------------------------'
+if [ /usr/bin/vim ] ; then
+        echo "It's work 1"
+fi
+if command -v vim ; then
+        echo "It's work 2"
+fi
+
