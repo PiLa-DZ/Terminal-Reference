@@ -190,6 +190,12 @@
 ..	{start..end}
 .	here
 ```
+---
+> environment variable
+1.
+	```
+	env
+	```
 
 ---
 ### Learn From Youtube :blush:
