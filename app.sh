@@ -52,3 +52,12 @@ done
 
 
 
+echo '-- Function --------------------------'
+
+# How to write function
+myFunction() {
+	echo 'Hi from Function!'
+}
+
+# Call Frnction
+myFunction
