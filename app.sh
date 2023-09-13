@@ -1,6 +1,6 @@
 #!/bin/bash
 # sudo chown root:root /usr/local/bin/app
-
+# read myVar;
 
 
 
@@ -61,3 +61,32 @@ myFunction() {
 
 # Call Frnction
 myFunction
+
+
+
+echo "-- Swich Statement --------------------"
+echo "Write your favorate number"
+echo "Choose nomber from 1 to 5"
+read inpt
+case $inpt in
+	1) echo "Your favorate number is 1";;
+	2) echo "Your favorate number is 2";;
+	3) echo "Your favorate number is 3";;
+	4) echo "Your favorate number is 4";;
+	5) echo "Your favorate number is 5";;
+	*) echo "I'm sorry, nothig here!";;
+esac
+
+exit_msg="a"
+echo ""
+echo "Do you want to clear the screen! y/n: "
+while [ $exit_msg != y ] || [ $exit_msg != n ]; do
+	read msg
+	exit_msg=$msg
+	case $exit_msg in
+		y) clear ; exit 0;;
+		n) echo "Here you are Mr."; exit 0;;
+		*) echo "I'm sorry, You have to choise! y/n: "
+	esac
+done
+
