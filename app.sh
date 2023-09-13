@@ -1,4 +1,5 @@
 #!/bin/bash
+# sudo chown root:root /usr/local/bin/app
 
 
 
