@@ -12,7 +12,8 @@ my_var="PiLa"
 echo "Hi $my_var"
 where_am_i=$(pwd)
 echo "You are in $where_am_i"
-
+my_var="Nabil"
+echo $Nabil
 
 
 
@@ -79,10 +80,16 @@ case $inpt in
 	*) echo "I'm sorry, nothig here!";;
 esac
 
+
+
+# More Examle
 exit_msg="a"
 echo ""
 echo "Do you want to clear the screen! y/n: "
 while [ $exit_msg != y ] || [ $exit_msg != n ]; do
+	if [ $? = 2 ]; then
+		exit 0
+	fi	
 	read msg
 	exit_msg=$msg
 	case $exit_msg in
